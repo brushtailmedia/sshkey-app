@@ -1,0 +1,37 @@
+# Rust build output
+target/
+**/*.rs.bk
+
+# Binary
+sshkey-app
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Code coverage
+*.profraw
+*.profdata
+tarpaulin-report.html
+cobertura.xml
+lcov.info
+
+# Local client data (never commit user data)
+*.db
+*.db-wal
+*.db-shm
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# env file
+.env
